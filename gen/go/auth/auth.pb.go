@@ -4,7 +4,7 @@
 // 	protoc        v6.31.1
 // source: auth/auth.proto
 
-package authv1
+package authpb
 
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
@@ -230,7 +230,7 @@ const file_auth_auth_proto_rawDesc = "" +
 	"\x02id\x18\x01 \x01(\x03R\x02id2s\n" +
 	"\x04Auth\x120\n" +
 	"\x05Login\x12\x12.auth.LoginRequest\x1a\x13.auth.LoginResponse\x129\n" +
-	"\bRegister\x12\x15.auth.RegisterRequest\x1a\x16.auth.RegisterResponseB\x15Z\x13goon.auth.v1;authv1b\x06proto3"
+	"\bRegister\x12\x15.auth.RegisterRequest\x1a\x16.auth.RegisterResponseB/Z-github.com/xcus33me/protos/gen/go/auth;authpbb\x06proto3"
 
 var (
 	file_auth_auth_proto_rawDescOnce sync.Once
